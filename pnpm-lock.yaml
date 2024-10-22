@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/cors': ^2.8.12
   '@types/jsonwebtoken': ^8.5.9
-  '@types/node': 18.7.14
+  '@types/node': 18.19.58
   '@types/react': 18.0.18
   '@types/react-dom': 18.0.6
   '@types/swagger-ui-react': ^4.11.0
@@ -32,7 +32,7 @@ dependencies:
 devDependencies:
   '@types/cors': 2.8.12
   '@types/jsonwebtoken': 8.5.9
-  '@types/node': 18.7.14
+  '@types/node': 18.19.58
   '@types/react': 18.0.18
   '@types/react-dom': 18.0.6
   '@types/swagger-ui-react': 4.11.0
@@ -321,11 +321,13 @@ packages:
   /@types/jsonwebtoken/8.5.9:
     resolution: {integrity: sha512-272FMnFGzAVMGtu9tkr29hRL6bZj4Zs1KZNeHLnKqAvp06tAIcarTMwOh8/8bz4FmKRcMxZhZNeUAQsNLoiPhg==}
     dependencies:
-      '@types/node': 18.7.14
+      '@types/node': 18.19.58
     dev: true
 
-  /@types/node/18.7.14:
-    resolution: {integrity: sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==}
+  /@types/node/18.19.58:
+    resolution: {integrity: sha512-2ryJttbOAWCYuZMdk4rmZZ6oqE+GSL5LxbaTVe4PCs0FUrHObZZAQL4ihMw9/cH1Pn8lSQ9TXVhsM4LrnfZ0aA==}
+    dependencies:
+      undici-types: 5.26.5
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
@@ -372,7 +374,7 @@ packages:
   /@types/whatwg-url/8.2.2:
     resolution: {integrity: sha512-FtQu10RWgn3D9U4aazdwIE2yzphmTJREDqNdODHrbrZmmMqI0vMheC/6NE/J1Yveaj8H+ela+YwWTjq5PGmuhA==}
     dependencies:
-      '@types/node': 18.7.14
+      '@types/node': 18.19.58
       '@types/webidl-conversions': 7.0.0
     dev: false
 
@@ -2695,6 +2697,9 @@ packages:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
     dev: true
+
+  /undici-types/5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
